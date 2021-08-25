@@ -1,5 +1,5 @@
 apiready = function() {
-}
+};
 
 
 try{
