@@ -6,7 +6,7 @@
 </div>
 <script type="text/javascript">
 if (window.location.protocol == "https:") {
-    document.getElementById("ttyd").innerHTML = "终端地址：" + "http://" + window.location.hostname + ":7681";
+    document.getElementById("ttyd").innerHTML = "终端地址：http://" + window.location.hostname + ":7681";
     if (window.open("http://" + window.location.hostname + ":7681") == null) {
         window.location.href = "http://" + window.location.hostname + ":7681";
     }
